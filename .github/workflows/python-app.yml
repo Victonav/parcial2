@@ -60,5 +60,5 @@ jobs:
         HEROKU_API_TOKEN: ${{ secrets.HEROKU_API_TOKEN }}
         HEROKU_APP_NAME: ${{ secrets.HEROKU_APP_NAME }}
       run: |
-        git pull heroku main
+        git pull
         git push heroku main
